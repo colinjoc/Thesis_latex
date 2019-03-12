@@ -1,0 +1,64 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Thesis.aux
+A level-1 auxiliary file: FrontBackMatter/Titlepage.aux
+A level-1 auxiliary file: FrontBackMatter/Titleback.aux
+A level-1 auxiliary file: FrontBackMatter/Declaration.aux
+A level-1 auxiliary file: FrontBackMatter/Abstract.aux
+A level-1 auxiliary file: FrontBackMatter/Publication.aux
+A level-1 auxiliary file: FrontBackMatter/Acknowledgments.aux
+A level-1 auxiliary file: FrontBackMatter/Contents.aux
+A level-1 auxiliary file: Chapters/01Intro.aux
+A level-1 auxiliary file: Chapters/02Methods.aux
+A level-1 auxiliary file: Chapters/03MNRJDA.aux
+A level-1 auxiliary file: Chapters/04EMT.aux
+A level-1 auxiliary file: Chapters/05MRM.aux
+A level-1 auxiliary file: Chapters/06CpmMrm.aux
+A level-1 auxiliary file: Chapters/07Conc.aux
+A level-1 auxiliary file: Chapters/Appendix/Appendix_exp_nwn_results.aux
+A level-1 auxiliary file: FrontBackMatter/Bibliography.aux
+The style file: ieeetr.bst
+Database file #1: bibliography.bib
+Warning--empty publisher in guichard2017
+You've used 172 entries,
+            1876 wiz_defined-function locations,
+            1418 strings with 37897 characters,
+and the built_in function-call counts, 56545 in all, are:
+= -- 5484
+> -- 2883
+< -- 0
++ -- 1026
+- -- 854
+* -- 4164
+:= -- 8005
+add.period$ -- 185
+call.type$ -- 172
+change.case$ -- 162
+chr.to.int$ -- 0
+cite$ -- 173
+duplicate$ -- 2986
+empty$ -- 4516
+format.name$ -- 854
+if$ -- 13818
+int.to.chr$ -- 0
+int.to.str$ -- 172
+missing$ -- 180
+newline$ -- 532
+num.names$ -- 173
+pop$ -- 385
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 2423
+stack$ -- 0
+substring$ -- 3341
+swap$ -- 1597
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 468
+width$ -- 175
+write$ -- 1815
+(There was 1 warning)

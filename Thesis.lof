@@ -1,0 +1,73 @@
+\select@language {american}
+\deactivateaddvspace 
+\select@language {american}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces \textbf {Image:} SEM images of nanowire networks reported in the literature.}}{5}{figure.caption.8}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces \textbf {Sketch:} A visualisation of percolation in a square lattice above and below the critical bond value}}{9}{figure.caption.9}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces \textbf {Plot:} The memristance of a theoretical circuit element demonstrated by a hysteresis I-V curve with a tunable memristance, and a memristive response of a experimental sample. }}{14}{figure.caption.10}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces \textbf {Sketch:} Examples of bipolar and unipolar resistive switching.}}{17}{figure.caption.11}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces \textbf {Sketch:} Sketches of filament growth in an Ag ECM memristor cell with a corresponding I-V curve.}}{19}{figure.caption.12}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces \textbf {Sketch:} Experimental images of filament growth in an Ag/Pt ECM memristor cell.}}{20}{figure.caption.13}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces \textbf {Sketch:} An example of a graph.}}{26}{figure.caption.14}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces \textbf {Sketch:} An example of a weighed graph.}}{29}{figure.caption.15}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces \textbf {Plot:} Equivalent resistance between nodes in a finite square lattice.}}{33}{figure.caption.16}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces \textbf {Plot:} Comparison between lattice integral and its approximation}}{39}{figure.caption.17}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces \textbf {Plot:} Comparison between lattice integral approximation and equivalent resistance in a finite square lattice.}}{40}{figure.caption.18}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces \textbf {Sketch:} A simple square lattice for the derivation of an effective medium theory.}}{42}{figure.caption.19}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces \textbf {Plot:} Effective conductance for a binary resistor distribution on a square lattice.}}{45}{figure.caption.20}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces \textbf {Sketch:} Example of site percolation in a square lattice.}}{46}{figure.caption.21}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces \textbf {Sketch:} A sketch of the necessary conditions for a nanowire intersection.}}{48}{figure.caption.22}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces \textbf {Plot:} The relationship between junction density with wire density and a demonstration of finite-size effects.}}{50}{figure.caption.23}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \textbf {Schematic:} Mapping a nanowire network with JDA and MNR models.}}{56}{figure.caption.24}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces \textbf {Sketch:} Visualisation of a simulated nanowire network.}}{59}{figure.caption.25}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces \textbf {Plot:} Relationship between sheet resistance and junction resistance on a fixed network geometry.}}{60}{figure.caption.26}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces \textbf {Plot:} Relationship between sheet resistance and resistivity parameters on a fixed network geometry.}}{64}{figure.caption.27}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces \textbf {Plot:} Relationship between sheet resistance and wire density in a nanowire network.}}{67}{figure.caption.28}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces \textbf {Schematic:} An SEM image of a nanowire network and its digitised counterpart.}}{69}{figure.caption.29}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces \textbf {Plot:} The relationship between sheet resistance and junction resistance for a digitised network.}}{71}{figure.caption.30}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces \textbf {Plot:} Comparison of junction resistance distributions for experimental measurements and simulations.}}{73}{figure.caption.31}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces \textbf {Plot:} Optimisation capacity coefficient for thirty digitised NWNs.}}{74}{figure.caption.32}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces \textbf {Plot:} The effect of junction resistance dispersion on calculated sheet resistance.}}{77}{figure.caption.33}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces \textbf {Sketch:} The steps of mapping a NWN image onto an effective lattice.}}{83}{figure.caption.34}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces \textbf {Sketch:} Visualisation of nodal separation.}}{85}{figure.caption.35}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces \textbf {Plot:} Equivalent resistance between nodes in a NWN.}}{86}{figure.caption.36}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces \textbf {Sketch:} Types of resistors in a NWN.}}{88}{figure.caption.37}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces \textbf {Plot:} EMT relative percentages of resistors in a NWN.}}{90}{figure.caption.38}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces \textbf {Plot:} Inter-nodal Resistance EMT }}{94}{figure.caption.39}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces \textbf {Plot:} Inter-electrode resistance versus electrode nodal separation.}}{96}{figure.caption.40}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces \textbf {Plot:} Dependence of $N_y$ on various underlying parameters.}}{98}{figure.caption.41}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces \textbf {Plot:} $N_x$ versus electrode separation and wire density.}}{100}{figure.caption.42}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces \textbf {Plot:} EMT applied to wire density and length scaling.}}{103}{figure.caption.43}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces \textbf {Plot:} Comparison of EMT and resistive parameter simulations.}}{104}{figure.caption.44}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces \textbf {Plot:} Comparison of EMT and wire density simulations.}}{106}{figure.caption.45}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces \textbf {Plot:} Effective square lattice applied to the calculation of the Optimization-capacity coefficient.}}{108}{figure.caption.46}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces \textbf {Sketch:} Sketch of a conductive filament formed between two core-shell nanowires.}}{112}{figure.caption.47}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces \textbf {Plot:} Conductance of a nanowire junction and network versus increasing current compliance.}}{114}{figure.caption.48}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces \textbf {Plot:} Junction memristance with varying prefactor and exponent.}}{118}{figure.caption.49}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces \textbf {Diagram:} Workflow diagram of memristive model simulation.}}{122}{figure.caption.50}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces \textbf {Sketch:} SEM and digitised image of a NWN.}}{123}{figure.caption.51}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces \textbf {Plot:} NWN memristance for various junction prefactors and exponents.}}{125}{figure.caption.52}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces \textbf {Plot:} Scaling regimes of a NWN conductance a supra-linear junction exponent.}}{128}{figure.caption.54}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces \textbf {Plot:} Conductance curves and current colour maps for difference junction exponents.}}{130}{figure.caption.55}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces \textbf {Plot:} Current colour maps for supra-linear junction exponent.}}{132}{figure.caption.56}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces \textbf {Image:} A Passive Voltage Contrast image of a NWN evolved to a plateau in conductance.}}{133}{figure.caption.57}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces \textbf {Schematic:} Visualisation of a multi-electrode device in a memristive network.}}{134}{figure.caption.58}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces \textbf {Plot:} Memory states in a multi-terminal NWN device.}}{135}{figure.caption.59}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces \textbf {Sketch:} A sketch of MRM and CPM junctions in a NWN along with PVC images of NWN displaying a capacitive and memristive response.}}{140}{figure.caption.60}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces \textbf {Schematic:} A work-flow diagram of the capacitive junction model.}}{144}{figure.caption.61}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces \textbf {Sketch:} An SEM image of a network and alongside its digitised counterpart.}}{145}{figure.caption.62}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces \textbf {Plot:} Wire activation during NWN memristance increase for supra-linear junction exponent.}}{147}{figure.caption.63}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces \textbf {Plot:} Wire activation in a NWN during capacitance breakdown.}}{149}{figure.caption.64}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces \textbf {Plot:} Wire activation during memristance increase in a NWN with sub-linear exponent.}}{151}{figure.caption.65}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces \textbf {Plot:} Activated junctions in the CPM and MRM in different exponent regimes.}}{152}{figure.caption.66}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces \textbf {Plot:} Scale-free response of NWNs to leakage current.}}{154}{figure.caption.67}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces \textbf {Plot:} Fault-tolerance in a memristive network perturbed from start of simulations.}}{157}{figure.caption.68}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces \textbf {Plot:} Fault-tolerance in a memristive network perturbed during simulations.}}{160}{figure.caption.69}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces \textbf {Plot:} Fault-tolerance in a capacitive network.}}{161}{figure.caption.70}
+\addvspace {10\p@ }
+\addvspace {10\p@ }

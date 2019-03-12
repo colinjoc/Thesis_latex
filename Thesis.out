@@ -1,0 +1,57 @@
+\BOOKMARK [0][]{declaration.0}{Declaration}{}% 1
+\BOOKMARK [1][-]{Abstract.1}{Abstract}{declaration.0}% 2
+\BOOKMARK [1][-]{Publications.1}{Publications}{declaration.0}% 3
+\BOOKMARK [1][-]{Acknowledgements.1}{Acknowledgements}{declaration.0}% 4
+\BOOKMARK [1][-]{tableofcontents.1}{Contents}{declaration.0}% 5
+\BOOKMARK [0][]{dummy.3}{List of Figures}{}% 6
+\BOOKMARK [1][-]{lof.1}{List of Figures}{dummy.3}% 7
+\BOOKMARK [0][]{dummy.4}{Acronyms}{}% 8
+\BOOKMARK [1][-]{acronyms.1}{Acronyms}{dummy.4}% 9
+\BOOKMARK [0][]{chapter.1}{1 Introduction}{}% 10
+\BOOKMARK [1][-]{section.1.1}{1.1 Nanowire Networks}{chapter.1}% 11
+\BOOKMARK [1][-]{section.1.2}{1.2 Network Theory}{chapter.1}% 12
+\BOOKMARK [1][-]{section.1.3}{1.3 Overview of Percolation Theory}{chapter.1}% 13
+\BOOKMARK [1][-]{section.1.4}{1.4 Memristive Behaviour of Nanowire Networks}{chapter.1}% 14
+\BOOKMARK [2][-]{subsection.1.4.1}{1.4.1 Memristor and Memristive Systems}{section.1.4}% 15
+\BOOKMARK [2][-]{subsection.1.4.2}{1.4.2 Resistive Switching Phenomena}{section.1.4}% 16
+\BOOKMARK [2][-]{subsection.1.4.3}{1.4.3 Potential for Neuromorphic Computing}{section.1.4}% 17
+\BOOKMARK [1][-]{section.1.5}{1.5 Thesis Goals and Scope}{chapter.1}% 18
+\BOOKMARK [0][]{chapter.2}{2 General Theory and Mathematical Methods}{}% 19
+\BOOKMARK [1][-]{section.2.1}{2.1 Resistive Network Theory}{chapter.2}% 20
+\BOOKMARK [1][-]{section.2.2}{2.2 Lattice Green's function for infinite resistive networks}{chapter.2}% 21
+\BOOKMARK [1][-]{section.2.3}{2.3 Effective Medium Theory}{chapter.2}% 22
+\BOOKMARK [1][-]{section.2.4}{2.4 Percolation Theory and Critical Wire Density}{chapter.2}% 23
+\BOOKMARK [1][-]{section.2.5}{2.5 Junction density as a function of wire density and length}{chapter.2}% 24
+\BOOKMARK [1][-]{section.2.6}{2.6 Chapter Summary}{chapter.2}% 25
+\BOOKMARK [0][]{chapter.3}{3 Computational Models for Disordered nanowire networks}{}% 26
+\BOOKMARK [1][-]{section.3.1}{3.1 Graphical Representations of Nanowire Networks}{chapter.3}% 27
+\BOOKMARK [1][-]{section.3.2}{3.2 The Impact of Inner-wire Resistance}{chapter.3}% 28
+\BOOKMARK [2][-]{subsection.3.2.1}{3.2.1 The Relationship Between Junction and Network Resistances}{section.3.2}% 29
+\BOOKMARK [2][-]{subsection.3.2.2}{3.2.2 The Effect of Nanowire Resistivity and Diameter on Network Resistance}{section.3.2}% 30
+\BOOKMARK [2][-]{subsection.3.2.3}{3.2.3 The Impact of Wire Density on Nanowire Network Resistance}{section.3.2}% 31
+\BOOKMARK [1][-]{section.3.3}{3.3 Digital Representation of Physical Nanowire Networks}{chapter.3}% 32
+\BOOKMARK [1][-]{section.3.4}{3.4 Impact of Junction Resistance Disorder}{chapter.3}% 33
+\BOOKMARK [1][-]{section.3.5}{3.5 Chapter Summary}{chapter.3}% 34
+\BOOKMARK [0][]{chapter.4}{4 Effective Medium Theory for Nanowire Networks}{}% 35
+\BOOKMARK [1][-]{section.4.1}{4.1 Inter-nodal Resistance in a Nanowire Network}{chapter.4}% 36
+\BOOKMARK [1][-]{section.4.2}{4.2 Effective Medium Theory of a Nanowire Network}{chapter.4}% 37
+\BOOKMARK [1][-]{section.4.3}{4.3 Inter-Electrode Resistance in a Nanowire Network}{chapter.4}% 38
+\BOOKMARK [1][-]{section.4.4}{4.4 Application of the Effective Square Lattice}{chapter.4}% 39
+\BOOKMARK [1][-]{section.4.5}{4.5 Chapter Summary}{chapter.4}% 40
+\BOOKMARK [0][]{chapter.5}{5 Memristive Properties of Nanowire Networks}{}% 41
+\BOOKMARK [1][-]{section.5.1}{5.1 Modelling the Memristive Response of a Nanowire Junction}{chapter.5}% 42
+\BOOKMARK [1][-]{section.5.2}{5.2 Memristance in a Nanowire Network}{chapter.5}% 43
+\BOOKMARK [1][-]{section.5.3}{5.3 Current Colour Maps}{chapter.5}% 44
+\BOOKMARK [1][-]{section.5.4}{5.4 Multi-terminal}{chapter.5}% 45
+\BOOKMARK [1][-]{section.5.5}{5.5 Chapter Summary}{chapter.5}% 46
+\BOOKMARK [0][]{chapter.6}{6 Comparison of a Capacitive and Memristive Junction Activation Process}{}% 47
+\BOOKMARK [1][-]{section.6.1}{6.1 Capacitive Junction Model}{chapter.6}% 48
+\BOOKMARK [1][-]{section.6.2}{6.2 Path Formation in Capacitive and Memristive Models}{chapter.6}% 49
+\BOOKMARK [1][-]{section.6.3}{6.3 Scale-Free Dynamics in Capacitive Activations}{chapter.6}% 50
+\BOOKMARK [1][-]{section.6.4}{6.4 Fault Tolerance}{chapter.6}% 51
+\BOOKMARK [1][-]{section.6.5}{6.5 Chapter Summary}{chapter.6}% 52
+\BOOKMARK [0][]{chapter.7}{7 Summary and Future Work}{}% 53
+\BOOKMARK [1][-]{section.7.1}{7.1 Thesis Summary}{chapter.7}% 54
+\BOOKMARK [1][-]{section.7.2}{7.2 Future Work}{chapter.7}% 55
+\BOOKMARK [0][]{appendix.A}{A Digitised Network Parameters}{}% 56
+\BOOKMARK [0][]{dummy.5}{bibliography}{}% 57

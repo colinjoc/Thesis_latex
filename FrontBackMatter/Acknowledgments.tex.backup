@@ -1,0 +1,107 @@
+% Acknowledgements
+
+\pdfbookmark[1]{Acknowledgements}{Acknowledgements} % Bookmark name visible in a PDF viewer
+
+
+
+%----------------------------------------------------------------------------------------
+
+\begingroup
+
+\let\clearpage\relax
+\let\cleardoublepage\relax
+\let\cleardoublepage\relax
+
+%\medskip
+\begin{flushright}
+{ \slshape Contemplate the danger of a man who thinks only of himself. } \\ \medskip
+---Yukio Mishima\\ 
+\end{flushright}
+%\bigskip
+
+\chapter*{Acknowledgements} % Acknowledgements section text
+
+
+Over the last few years I have received incalculable help and guidance from numerable people.
+I would first like to thank Prof. Mauro Ferreira for his supervision and advice throughout this project, and for creating a friendly and collaborative environment in which to conduct research.
+
+I would like to acknowledge the financial support this project received from the Irish Research Council for Science, Engineering and Technology under the EMBARK initiative and from Science Foundation Ireland under Grant No.
+SFI 11/RFP.1/MTR/3083, and also from the School of Physics Trinity College Dublin.
+
+Throughout this project I have had many fruitful collaborations.
+I would like to acknowledge my fellow graduate students John Duffy and James ``Ringo'' Lawlor, who have been of great assistance and provided much support throughout my research, and I would like to say that I'm sorry we never found our ``George``.
+I would also like to acknowledge Dr. Stephen Power who provided much assistance and supervision in the early years of my research and has continued to do so from his new home in Denmark.
+I would like to thank Tom, Awadhesh, and Amaury for useful discussions, and Eric for useless discussions.
+I would further like to thank Colin for being very milk-conscious, avoiding maybe milk-less catastrophes.
+
+thank john, carlo, james, colin for useful discussions
+thank eric for useless discussions
+thank sinead 
+
+thank my wife sreeja
+
+
+% I’m grateful for the many fruitful collaborations I have had the oppor-
+% tunity to engage in. For their friendly, keen and lively participation in our
+% shared projects I am indebted to Dr. Antonio Costa, Dr. Roberto Bechara
+% Muniz, Dr. Filipe Guimar ̃aes, Dr. Pedro Venezuela, Dr. Solange Fagan, Dr.
+% Stefan Hansel, Vivian de Menezes and Dr. Vojislav Krstic. I must give a
+% special thanks to Filipe and Marina for their generous hospitality during my
+% stays in Brazil. Valeu!
+% I am grateful to all my office colleagues over the years for providing such
+% an enjoyable and productive working environment. In particular I would like
+% to thank Drs. Andrew Wall, Claudia da Rocha, David Kirwan and Luiz
+% Felipe Pereira - all former members of Mauro’s group, for assistance during
+% the earlier years of my studies. I would also like to thank Dr. Tom Archer for
+% the technical assistance that really wasn’t his job, and the staff at TCHPC,
+% who fixed anything Tom couldn’t.
+% I am lucky to have made some excellent friends over the years, who pro-
+% vided marvellous company in the office, at lunch, at home in Tramore, in
+% various apartments and houses we shared in Dublin, over drinks, on trips
+% abroad, over a hand of bridge, up mountains, at sea, but most importantly,
+% at tea. For the sake of brevity, and the fear of accidental omission, I can’t
+% thank them all by name. However, I would like to offer all of them my
+% sincerest gratitude for their friendship, except Steve. 1
+% On a personal note, I am especially thankful to my family for their unwa-
+% vering support and belief over the years. For their continuing commitment to
+% someone who still hasn’t a real job, I thank my parents, Mike and Noeleen,
+% and my sister, Corey. I would like to acknowledge and remember the kind-
+% nesses I received over many years from Ellen Butler, Dick Butler and Joan
+% Corish. This thesis is dedicated to their memory. I would also like to thank
+% Phillip Corish, for his pride in what I was doing despite my inadequate an-
+% swers to his questions about it.
+% Finally I’d like to thank Nuala for her love and friendship throughout.
+% I’d say more but I promised not to embarrass her.
+
+
+
+% Thanks to my committee for taking the time to discuss and advise
+% me. In particular, I would like to give my heartfelt gratitude to Prof.
+% Manfred Fiebig and his group whose discussions and advice have led
+% to some fun science. Thanks also to Prof. Ram Seshadri from my time
+% at UCSB for his mentorship.
+% A huge thank you to the past and current members of the Spaldin
+% family that I’ve had the pleasure of interacting with: Kris, Alison,
+% James, Eric, Josh, Max, Claude, Michael, Pier, Sverre, Yu, Pio, Frank,
+% Yaël, Krzysztof, Madhura, Maribel, Gabriele, Boris, Natalya and Flo-
+% rian. I would like to show my greatest appreciation to the wonderful
+% students that I’ve worked with at the ETH: Oliver, Eva, Florian and
+% Matthieu. A extra special word of thanks to my ‘posh’ o�cemates
+% Scaramucci and Uli for being in�nite sources of science, laughs and
+% Kinder-Überraschung. My external gratitude goes to Susanne for do-
+% ing everything outside of writing this thesis.
+% I am indebted to my extended ASESMA family for showing me
+% science in Africa and being a constant source of inspiration.
+% Thanks to Nick, Paul, Michele, Scaramucci and Gabriele who helped
+% with the last hurdles of putting these ��� pages together.
+% To my home crowd, the ‘Mathsoc’ bunch and the London guys –
+% thanks for all of the encouragement, support and distractions. You’re
+% all deadly. A special word of thanks to Emma for showing me what
+% it’s all about.
+% Finally, to my Mum for her unwavering support, and for putting
+% up with for �� years of un�nished projects cluttering the house. I
+% hope this one will make you proud.
+
+
+
+\endgroup

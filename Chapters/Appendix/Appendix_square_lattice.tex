@@ -1,0 +1,66 @@
+\chapter{Multi-Nodal Electrodes in a Square Lattice}
+\label{appendix: finite square lattice}
+%\footnote{This section needs to be adjusted and properly linked in with in chapter 4. May not include it}
+In this appendix the Inter-nodal resistance Green's Function discussed in chapters 2 and 4 is generalised to a system with extended electrodes. The lattice in consideration is infinite in one dimension but finite in the other. Let width of the system in the finite dimension be $N_y$ nodes and $\vec{a}_\textit{j}, ~ j = 1,2$ be the primitive vectors. The injection electrode is represented by a strip of nodes at positions $\vec{r}_{in} = x_{in} \vec{a}_1 + m \vec{a}_2, ~ 0\leq m < N_y$. Similarly the extraction electrode is represented by a strip of nodes at positions $\vec{r}_{out} = x_{out} \vec{a}_1 + \textit{n} \vec{a}_2, ~ 0\leq \textit{n} < N_y$. In order to simplify notation, let $x_{in} = 0$ and $x_{out} = N_x$. The number of nodes in each electrode (or the width of the electrode) is $N_y$ nodes, the same as the width of the system. 
+
+Following the derivation for the Inter-nodal Green's Function in chapter 2, one begins by describing the current at lattice point $\vec{r}$. A total current $I$ is injected at one of the electrodes, a current $i_0 = \frac{I}{N_y}$ injected at each of the nodes in this electrode. Consider a current $i_0$ that is injected into one node at position $(0,\textit{m}) = 0\vec{a}_1 + \textit{m}\vec{a}_2$, and $i_0$ is extracted from the entire extraction electrode. We define the current extracted at each individual node $(N_x,\textit{n})$ as $i_{\textit{mn}}$. In other words $i_{\textit{mn}}$ is the current extracted from the node at position $(N_x,\textit{n})$ when a current $i_0$ is injected at node $(0,\textit{m})$. We make the assumption that a current of $i_0$ is extracted from each node in the extraction electrode when a total current $I$ is injected into the injection electrode. The total extracted current must match the injected current and so
+\begin{equation}
+\sum_{\textit{n}=0}^{N_y-1} i_{\textit{mn}}=\sum_{\textit{m}=0}^{N_y-1} i_{\textit{mn}}= ~i_0
+\end{equation}
+The current equation in this case of a single injection node and multiple extraction nodes is
+\begin{equation}
+I(\vec{r})=I(\textit{x}\vec{a}_1 + \textit{y}\vec{a}_2) =  \delta(\textit{x})\delta(\textit{y-m}) i_0 - \sum_{\textit{n}=0}^{N_y-1} \delta(\textit{x} - N_x) \delta(\textit{y-n})  i_{\textit{mn}}
+\end{equation}
+
+By summing contributions of current $i_0$ injected at each point $(0,\textit{m})$ on the injection electrode, one can write the current equation of a system with two electrodes of width $N_y$ nodes separated by $N_x$ nodes as
+\begin{equation}
+I(\vec{r})=I(x\vec{a}_1 + y\vec{a}_2) = \sum_{\textit{m}=0}^{N_y-1}\left( \delta(x)\delta(\textit{y-m}) i_0 - \sum_{\textit{n}=0}^{N_y-1} \delta(x - N_x) \delta(\textit{y-n})  i_{\textit{mn}} \right)
+\end{equation}
+Reformulating the voltage function from equation (\ref{eq: potential_GF}) for this multi-nodal formulation is
+\begin{equation}
+V(\vec{r}) = R \sum_{\textit{m}=0}^{N_y-1}\left(G(\vec{r}-\textit{m}\vec{a}_2)i_0 - \sum_{\textit{n}=0}^{N_y-1}G(\vec{r} - N_x\vec{a}_1 - \textit{n}\vec{a}_2) i_{\textit{mn}}  \right)
+\label{eq: voltage}
+\end{equation}
+In order to calculate the resistance between the two electrodes, we calculate the difference between the average voltage on the electrode where current is injected and the average voltage on the electrode where current is extracted. We then divide by the total amount of current that was injected/extracted.
+\begin{equation}
+R_{e}(N_x) = \frac{1}{N_y I}\left(\sum_{\textit{b}=0}^{N_y-1}V(0,\textit{b}) - \sum_{\textit{b}=0}^{N_y-1}V(N_x,\textit{b})\right)
+\end{equation}
+In chapter 2 the lattice Green's function for an infinite network was derived using a continuous Fourier transform in both $\vec{k}$ directions resulting in the following expression
+\begin{equation}
+G(\vec{r} = x \vec{a}_1 + y \vec{a}_2) =   \int \frac{dk_1}{2 \pi} \frac{dk_2}{2 \pi} \frac{e^{i(k_1  x +  k_2 y)}}{2 - \cos(k_1) - \cos(k_2)}
+\end{equation}
+Due to the finite size of the network in the $\vec{a_2}$ direction, $\vec{k_2}$ is discretised with values $k_2 = \frac{\textit{b}}{N_y}, ~~\textit{b} = 0,1,...,N_y-1$. In place of a continuous Fourier Transform a discrete transform can be made in this direction resulting in the Green's function
+\begin{equation}
+G(\vec{r} = x \vec{a}_1 + y \vec{a}_2) = \frac{1}{N_y}\sum_{b=0}^{N_y-1} \int \frac{dk_1}{2 \pi} \frac{e^{i(k_1  x +  \frac{2 \pi b}{N_y} y)}}{2 - \cos(k_1) - \cos(\frac{2 \pi b}{N_y})}
+\label{eq: gf_finite}
+\end{equation}
+Using the fact that $i_0 = I/N_y$ one can write the resistance equation as:
+\begin{equation}
+R_e(N_x,N_y) = R \int \frac{dk_1}{2 \pi} \sum_{b,l,m=0}^{N_y-1} \frac{1}{N_y^3}e^{\frac{i 2\pi b m}{N_y}}e^{\frac{-i 2\pi b l}{N_y}} \left(\frac{1 - e^{i k_1 N_x}}{2 - \cos(k_1) - \cos(\frac{2 \pi b}{N_y})} \right)
+\end{equation}
+One can single out a dirac-delta function using an inverse discrete  fourier transform
+\begin{equation}
+\frac{1}{N_y} \sum_{m=0}^{N_y} e^{\frac{i 2 \pi b m}{N_y}} = \delta(b)
+\end{equation}
+Subbing this in and summing over b
+\begin{equation}
+R_e(N_x,N_y) = R \int \frac{dk_1}{2 \pi} \sum_{l=0}^{N_y-1} \frac{1}{N_y^2} \left(\frac{1 - e^{i k_1 N_x}}{1 - \cos(k_1) } \right) = R \int \frac{dk_1}{2 \pi} \frac{1}{N_y} \left(\frac{1 - e^{i k_1 N_x}}{1 - \cos(k_1) } \right)
+\end{equation}
+The remaining integral is in the form of the 1 dimensional chain of resistors discussed in chapter two and can be solved using the residue theorem leaving us with
+\begin{equation}
+R_e(N_x,N_y) = R \frac{N_x}{N_y}
+\label{finite_eqn}
+\end{equation}
+This final form has a straightforward interpretation as hains of $N_x$ resistors of resistance R connected in series, and there are $N_y$ of these chains connected in parallel. The same expression can be arrived at via a symmetry argument for such a system as a potential difference between two such electtrodes will change incrimentally per column of nodes as one moves from one electrode to the other. As each node in a column has an equipotential current does not flow between nodes in a column but flows along each chain between the electrodes resulting in the $N_y$ parallel paths.
+
+While the derivation in this section considered a lattice where the electrodes spanned two entire boundaries, the method can be extended to calculate the resistances for finite electrodes of any size $N_f$ embedded in a larger finite, or infinite lattice of width $N_y$. In such a scenario the Green's function for the lattice is given by equation \ref{eq: gf_finite} but the voltage function in equation \ref{eq: voltage} reflects the new size of the electrode $N_f$.
+\begin{comment}
+\begin{equation}
+V(\vec{r}) = R \sum_{\textit{m}=0}^{N_f-1}\left(G(\vec{r}-\textit{m}\vec{a}_2)\frac{I}{N_f} - \sum_{\textit{n}=0}^{N_f-1}G(\vec{r} - N_x\vec{a}_1 - \textit{n}\vec{a}_2) i_{\textit{mn}}  \right)
+\label{eq: finite_voltage}
+\end{equation}
+where $\sum_{\textit{n}=0}^{N_f-1} i_\text{mn} = \frac{I}{N_f}$. This alters the resitance equation to
+\begin{equation}
+R_{e}(N_x) = \frac{1}{N_f I}\left(\sum_{\textit{b}=0}^{N_f-1}V(0,\textit{b}) - \sum_{\textit{b}=0}^{N_f-1}V(N_x,\textit{b})\right)
+\end{equation}
+\end{comment}

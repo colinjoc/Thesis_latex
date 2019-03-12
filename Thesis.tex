@@ -1,0 +1,334 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Classicthesis Typographic Thesis
+% LaTeX Template
+% Version 1.3 (15/2/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% André Miede (http://www.miede.de)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% General Tips:
+% 1) Make sure to edit the classicthesis-config.file
+% 2) New enumeration (A., B., C., etc in small caps): \begin{aenumerate} \end{aenumerate}
+% 3) For margin notes: \marginpar or \graffito{}
+% 4) Do not use bold fonts in this style, it is designed around them
+% 5) Use tables as in the examples
+% 6) See classicthesis-preamble.sty for useful commands
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%  the FONT is  PALATINO, or a slight variation
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    Pauls Modified figures
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% \fig
+% {fraction of textwidth 0.0-1.0}
+% {file location}
+% {Start of thesis caption}
+% {Full Caption}
+% {image label}
+%
+% EXAMPLE
+% \fig
+% {1.0}
+% {Images/fig1.pdf}
+% {Small Description}
+% {Very detailed and long Description of what the image is}
+% {fig:fig1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+% change twoside to oneside for single sided.
+
+\documentclass[
+		oneside,openright,titlepage,numbers=noenddot,headinclude=rue,%1headlines,
+                footinclude=true,cleardoublepage=empty,
+                BCOR=5mm,paper=a4,fontsize=12pt, % Binding correction, paper type and font size
+                ngerman,american, % Languages
+                ]{scrreprt} 
+  
+  
+  
+                
+% Includes the file which contains all the document configurations and packages - make sure to edit this file
+\input{classicthesis-config}
+\usepackage{graphicx}
+\usepackage{setspace}
+\definecolor{myblue}{rgb}{0.0, 0.45, 0.55}
+\usepackage{hyperref}
+
+%%%%%% For PDF %%%%%%%%%%%%%%%%%%%%%%%%%
+% \hypersetup{
+%     colorlinks,
+%     citecolor=myblue,
+%     filecolor=myblue,
+%     linkcolor=myblue,
+%     urlcolor=myblue
+% }
+
+%%%%%%% For colour printing %%%%%%%%%%%%%%%%
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% may fuck things up
+%Alters the page margins
+% comment out all for classic thesis default
+\usepackage[left=2.0cm,right=3.5cm,top=1in,bottom=1in]{geometry}% Trinity Thesis min width!
+%
+%% from lines paper %%
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+\usepackage{color}
+\usepackage{soul}
+\usepackage{mathrsfs}
+\usepackage{lipsum}
+\usepackage{comment}
+%\usepackage[superscript]{cite} %superscript citation
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\usepackage{epstopdf} % for eps images
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{chngcntr}
+\counterwithin{figure}{chapter}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\usepackage{inputenc} %%%only for at HOME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\Zstroke}{%
+  \text{\ooalign{\hidewidth\raisebox{0.2ex}{--}\hidewidth\cr$Z$\cr}}%
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%% for fanccy figures
+\usepackage[labelfont=bf]{caption}
+\usepackage{xcolor}
+\usepackage{mdframed}
+\mdfdefinestyle{mystyle0}{
+    backgroundcolor=white!20,
+    linecolor=gray!33,
+    linewidth=2pt,
+    leftmargin=0cm,
+    rightmargin=0cm,
+    innerleftmargin=0cm,
+    innerrightmargin=0cm,
+    innerbottommargin=0cm,
+    skipabove=0.2cm,
+    skipbelow=0.1cm
+}
+\mdfdefinestyle{mystyle1}{
+    backgroundcolor=white!20,
+    linecolor=white!20,
+    linewidth=2pt,
+    leftmargin=0.5cm,
+    rightmargin=0.5cm,
+    skipabove=0pt,
+    skipbelow=0cm,
+    innerbottommargin=0.0cm,
+}
+\mdfdefinestyle{mystyle2}{
+    backgroundcolor=gray!20,
+    linecolor=gray!20,
+    innerleftmargin=0.2cm,
+    innerrightmargin=0.2cm,
+    innertopmargin=-0.2cm,
+    innerbottommargin=0.1cm,
+}
+
+
+
+% REGULAR FIGURE
+\newcommand{\fig}[5]{
+  \begin{figure}[htb!]
+  \begin{mdframed}[style=mystyle0]
+  \begin{mdframed}[style=mystyle1]
+  \centering
+  \includegraphics[width=#1\textwidth]{#2}
+  \end{mdframed}
+  \begin{mdframed}[style=mystyle2]
+  \caption
+  [#3]
+  {#4}
+  \label{#5}
+  \end{mdframed}
+  \end{mdframed}
+  \end{figure}
+  }
+  
+% IF YOU WANT TO EDIT ITS POSITION TOO  
+\newcommand{\figp}[6]{
+  \begin{figure}[#6]
+  \begin{mdframed}[style=mystyle0]
+  \begin{mdframed}[style=mystyle1]
+  \centering
+  \includegraphics[width=#1\textwidth]{#2}
+  \end{mdframed}
+  \begin{mdframed}[style=mystyle2]
+  \caption
+  [#3]
+  {#4}
+  \label{#5}
+  \end{mdframed}
+  \end{mdframed}
+  \end{figure}
+  }
+    
+    
+% \newenvironment{figurebox}[1]
+%    {\begin{figure}[#1]\begin{mycaptionbox}}
+%    {\end{mycaptionbox}\end{figure}}
+
+%\begin{mdframed}[style=mystyle2]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\doublespacing
+% or:
+%\onehalfspacing
+% or:
+%\singlespacing
+%%%%%%%%%%%%%%%%%%% COMMANDS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% for use in text mode
+\newcommand{\Ket}[1]{$|#1\rangle$} 	
+\newcommand{\Bra}[1]{$\langle#1|$} 	
+\newcommand{\Avg}[1]{$\langle#1\rangle$}
+\newcommand{\Bracket}[2]{$\langle#1|#2\rangle$}
+% for use in math mode
+\newcommand{\ket}[1]{|#1\rangle} 	
+\newcommand{\bra}[1]{\langle#1|} 	
+\newcommand{\avg}[1]{\langle#1\rangle}
+\newcommand{\bracket}[2]{\langle#1|#2\rangle}
+\newcommand{\bracketa}[1]{\langle#1\rangle}
+\newcommand{\lint}[2]{\int\limits_{-#1}^{+#1}\text{d}#2 \ }
+\newcommand{\lintn}[3]{\int\limits_{#1}^{#2}\text{d}#3 \ }
+\newcommand{\bracks}[1]{\left({#1}\right)}
+\newcommand{\Imag}{\text{Im}\ }
+\newcommand{\Tr}{\text{Tr}\ }
+\newcommand{\COS}[1]{cos\left({#1}\right)}
+\newcommand{\COSn}[1]{{cos}^2\left({#1}\right)}
+\newcommand{\SIN}[1]{sin\left({#1}\right)}
+\newcommand{\SINn}[1]{{sin}^2\left({#1}\right)}
+%%%%%%%%%%%%%%%%%%% COMMANDS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\titleformat*{\section}{\Large} % original
+\titleformat*{\section}{\Large\raggedright} % changed so that section titles don't overrun lines
+\titleformat*{\subsection}{\large}
+\numberwithin{equation}{section} % this can be changed to chapter if one wishes.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% fix a bug in v2.10.1 titlesec that does not number sections
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\ttlh@hang}{\parindent\z@}{\parindent\z@\leavevmode}{}{}
+\patchcmd{\ttlh@hang}{\noindent}{}{}{}
+\makeatother
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%\frenchspacing % Reduces space after periods to make text more compact
+
+\raggedbottom % Makes all pages the height of the text on that page
+
+\selectlanguage{american} % Select your default language - e.g. american or ngerman
+
+\renewcommand*{\bibname}{bibliography} % Uncomment to change the name of the bibliography
+%\setbibpreamble{} % Uncomment to include a preamble to the bibliography - some text before the reference list starts
+
+\pagenumbering{roman} % Roman page numbering prior to the start of the thesis content (i, ii, iii, etc)
+
+\pagestyle{plain} % Suppress headers for the pre-content pages
+
+%----------------------------------------------------------------------------------------
+%	PRE-CONTENT THESIS PAGES
+%------------------------------------------------------------------------------Untitled Folder----------
+
+\include{FrontBackMatter/Titlepage} % Main title page
+
+\include{FrontBackMatter/Titleback} % Back of the title page
+
+\cleardoublepage\include{FrontBackMatter/Declaration}
+
+%\cleardoublepage\include{FrontBackMatter/Dedication} % Dedication page
+
+%\cleardoublepage\include{FrontBackMatter/Foreword} % Uncomment and create a Foreword.tex to include a foreword
+
+\cleardoublepage\include{FrontBackMatter/Abstract} % Abstract page
+
+\cleardoublepage\include{FrontBackMatter/Publication} % Publications from the thesis page
+
+\cleardoublepage\include{FrontBackMatter/Acknowledgments} % Acknowledgements page
+
+\pagestyle{scrheadings} % Show chapter titles as headings
+
+\cleardoublepage\include{FrontBackMatter/Contents} % Contents, list of figures/tables/listings and acronyms
+
+%\cleardoublepage
+
+\pagenumbering{arabic} % Arabic page numbering for thesis content (1, 2, 3, etc)
+%\setcounter{page}{90} % Uncomment to manually start the page counter at an arbitrary value (for example if you wish to count the pre-content pages in the page count)
+
+\cleardoublepage % Avoids problems with pdfbookmark
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+
+%\ctparttext{In part 1 I will introduce the reader to the concept on spintronics, as well as provide background information and motivation. } % Text on the Part 1 page describing  the content in Part 1
+
+%\part{The Setup} % First part of the thesis
+ \include{Chapters/01Intro}
+ \include{Chapters/02Methods}
+ \include{Chapters/03MNRJDA} % MNR JDA
+ \include{Chapters/04EMT} 
+ \include{Chapters/05MRM}
+ \include{Chapters/06CpmMrm}
+ \include{Chapters/07Conc}
+
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+
+\appendix
+
+%\part{Appendix} % New part of the thesis for the appendix
+
+ \include{Chapters/Appendix/Appendix_exp_nwn_results} % Appendix A
+% \include{Chapters/Appendix/AppendixB} % Appendix B - empty template
+
+%----------------------------------------------------------------------------------------
+%	POST-CONTENT THESIS PAGES
+%----------------------------------------------------------------------------------------
+
+\cleardoublepage\include{FrontBackMatter/Bibliography} % Bibliography
+
+%\cleardoublepage\include{FrontBackMatter/Colophon} % Colophon
+
+%\cleardoublepage\include{FrontBackMatter/Declaration} % Declaration
+
+%----------------------------------------------------------------------------------------
+\end{document}

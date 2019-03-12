@@ -1,0 +1,27 @@
+% Publications - a page listing research articles written using content in the thesis
+
+\pdfbookmark[1]{Publications}{Publications} % Bookmark name visible in a PDF viewer
+
+\chapter*{Publications} % Publications page text
+
+Publications resulting, partially or wholly, from this work:
+
+\bigskip
+
+%\noindent Put your publications from the thesis here. The packages \texttt{multibib} or \texttt{bibtopic} etc. can be used to handle multiple different bibliographies in your document.
+
+\noindent \emph{RKKY interaction between extended magnetic defect lines in graphene} \\
+- P. D. Gorman,  J. M. Duffy, S. R. Power, M. S. Ferreira \\
+- Physical Review B, 00, 000000, 2014
+
+\noindent \emph{Variable range of the RKKY interaction in edged graphene} \\
+- J. M. Duffy, P. D. Gorman,  S. R. Power, M. S. Ferreira \\
+- Journal of Physics.: Condensed Matter, 26, 055007, 2014 \\
+
+\noindent \emph{RKKY interaction between adsorbed magnetic impurities in graphene: symmetry and strain effects}\\
+- P. D. Gorman,  J. M. Duffy,  M. S. Ferreira, S. R. Power \\
+- Physical Review B, 88, 085405, 2013\\
+
+\noindent \emph{Strain-Induced Modulation of Magnetic Interactions in Graphene}\\
+- S. R. Power, P. D. Gorman, J. M. Duffy,  M. S. Ferreira \\
+- Physical Review B, 86, 195423, 2012

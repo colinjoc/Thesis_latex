@@ -1,0 +1,24 @@
+% Declaration
+
+\refstepcounter{dummy}
+\pdfbookmark[0]{Declaration}{declaration} % Bookmark name visible in a PDF viewer
+
+\chapter*{Declaration} % Declaration section text
+
+\thispagestyle{empty}
+
+I, Paul Declan Gorman, hereby declare: This thesis has not been submitted as an exercise for a degree at this or any other university; That it comprises work performed entirely by myself during the course of my Ph.D. studies at Trinity College Dublin; That I was involved in a number of collaborations, and where it is appropriate my collaborators are acknowledged for their contributions.
+
+A copy of this thesis may be lended or copied by the Trinity College Library upon request by a third party provided it spans single copies made for study purposes only, subject to normal conditions of acknowledgment.
+
+\bigskip
+ 
+
+\smallskip
+
+\begin{flushright}
+\begin{tabular}{m{5cm}}
+\\ \hline
+\centering\myName \today \\
+\end{tabular}
+\end{flushright}

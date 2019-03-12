@@ -1,0 +1,36 @@
+% Abstract
+
+\pdfbookmark[1]{Abstract}{Abstract} % Bookmark name visible in a PDF viewer
+
+\begingroup
+\let\clearpage\relax
+\let\cleardoublepage\relax
+\let\cleardoublepage\relax
+
+\chapter*{Summary} % Abstract name
+
+Graphene-related materials continue to be in the scientific limelight due to near-continuous discoveries regarding their properties and production.
+The applications envisaged for these super materials are numerous and varied across many disciplines.
+In addition to this, the simplicity with which the physical properties of these materials can be described makes them particularly popular in theoretical examinations, where the simple dispersion relation for their electrons is of key utility.
+In this thesis we will examine a number of topics relating to graphene systems, focusing on those doped with magnetic impurities.
+We will utilize a combination of analytical and numerical methods to explore these topics in graphene and carbon nanotubes.
+
+There exists massive potential for magnetically-doped graphene systems in spintronic devices.
+Important to this endeavour is an understanding of the interactions between magnetic impurities embedded in graphene.
+Of particular interest is the Indirect Exchange Coupling which is mediated by the graphene conduction electrons.
+By further developing the analytic Green's functions for graphene and nanotubes we are able to explore the distance dependence of these interactions between a variety of impurities in a mathematically transparent fashion.
+We use our model examine the method of mechanically induced strain to modify these interactions.
+We show that strain is capable of increasing the range of these interactions as well modifying several properties of them in a controllable manner.
+
+We then use the methods developed to examine two current questions.
+The first is the interaction between extended magnetic defects in graphene.
+Here we develop a method for examining the interactions between large linear magnetic objects.
+Our model provides a mathematically transparent description of the magnitude and decay rate of this interaction.
+The second is the mechanism behind the sublattice-asymmetric nitrogen doping of graphene in chemical vapour deposition grown graphene.
+Here we use a simple model of the problem to show that the dopants themselves are one of the primary causes of the asymmetry.
+The explanation we provide should be testable experimentally with relative ease.
+
+
+\endgroup			
+
+\vfill
